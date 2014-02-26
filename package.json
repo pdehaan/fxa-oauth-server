@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "grunt server",
-    "test": "grunt test"
+    "test": "grunt test --node-env=test"
   },
   "repository": {
     "type": "git",
@@ -19,7 +19,9 @@
   "dependencies": {
     "hapi": "~2.3.0",
     "convict": "~0.4.2",
-    "intel": "~0.5.1"
+    "intel": "~0.5.1",
+    "bluebird": "~1.0.5",
+    "mysql": "^2.1.0"
   },
   "devDependencies": {
     "awsbox": "~0.7.0",
